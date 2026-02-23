@@ -1,0 +1,60 @@
+Anotações - Desenvolvimento WEB - 23.02.2026
+
+
+Apresentação do curso por meio da Ementa:
+	O curso visa o público inciante a intermediário;
+	HTML;
+	CSS;
+	Módulo bônus - JAVASCRIPT.
+
+Cronograma: 
+	última aula 15/04
+	avaliação 20/04 	Google forms, questões teóricas baseadas nas listas de exercícios
+	projetos 27/04 a 29/04	Temas escolhidos pelos alunos
+
+Frequência exigida 75% (permite até 4 faltas)
+
+
+
+
+
+História do desenvolvimento WEB
+	Protocolo NCP - 1970 travava as comunicações para que dois computadores se comunicassem
+	Protocolo TCP/IP - 1972 - Protocolo mais atual qu permitiu a expansão da rede.
+
+	1991 - Gopher Protocol 
+	1993 - HTTP, HTML e WWW
+
+HTML
+	HiperText Markup Language
+	Línguagem padrão usada para a insersão de conteúdos na página
+
+	vamos escrever os códigos por meios de marcadores (tags) 
+	<p> tag de abertura 		 </p> tag de fechamento
+	<h1> tag de título em nível H1 (maior e em negrito)
+
+	! - edar um enter ele já tem um prompt completo para o cabeçalho da página 
+	dentro da tag podemos colocar uma atribuição, por exemplo o idioma. <html lang="en">
+
+	UTF-8 é um código de escrita ue recebe caracteres especiais, como acentos.
+	<!DOCTYPE html> identifica a versão do htmp 
+
+	Algumas tags podem ser filhas ou parentes, dependendo da identação
+
+
+CSS 
+	Cascading Style Sheets
+
+
+
+ambas são linguagens de marcação
+
+JavaScript
+	Línguagem de programação usada para adicionar interatividade na WEB
+	As informações em camadas sobrepostas, menus e em tempo real são feitas por meio dessa línguagem.
+
+
+
+
+Extensão WEB DEVELOPER - ativa e desativa as linguagens
+Baixar o VS code e a extensão Live Server
