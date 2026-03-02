@@ -1,0 +1,57 @@
+/* 
+- tag
+- id
+- class
+- *
+*/
+
+body {
+    background-color: #ebebeb;
+    font-family: sans-serif;
+}
+
+#titulo-web {
+    color: #860000;
+}
+
+.titulo-secao-web {
+    color: #b00000;
+}
+
+.subtitulo-secao-web {
+    color: #b32020
+}
+
+.paragrafo-web {
+    color: #924747;
+}
+
+#titulo-mobile {
+    text-align: center;
+    color: #001374;
+}
+
+.titulo-secao-mobile {
+    color: #001ca7;
+}
+.subtitulo-secao-mobile{
+    color: #273ca7;
+}
+
+.paragrafo-web {
+
+    color: #475192;
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

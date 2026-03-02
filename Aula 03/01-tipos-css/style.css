@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    color: #1e1e1e;
+}
+
+h2 {
+    color: 323232
+}
+
+h3 {
+    color: #3c3c3c;
+}
+
+p {
+    text-align: justify;
+    color: #505050;
+    line-height: 1.6;
+}
