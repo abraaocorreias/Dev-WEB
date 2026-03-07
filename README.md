@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Curso-Desenvolvimento-WEB-_-Oxetech%20AL-blue?style=for-the-badge" alt="Curso">
+  <img src="https://img.shields.io/badge/Curso-Oxetech%20AL-blue?style=for-the-badge" alt="Curso">
   <img src="https://img.shields.io/badge/Local-SENAI%20Macei%C3%B3-red?style=for-the-badge" alt="Local">
 </p>
 
