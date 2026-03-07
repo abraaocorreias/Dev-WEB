@@ -1,46 +1,44 @@
-# 🚀 Dev-WEB | Oxetech AL & SENAI
+# 🚀 Dev-WEB | Desenvolvimento WEB (Oxetech AL)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Curso-Oxetech%20AL-blue?style=for-the-badge" alt="Curso">
-  <img src="https://img.shields.io/badge/Local-SENAI%20Macei%C3%B3-red?style=for-the-badge" alt="Local">
+  <img src="https://img.shields.io/badge/Programa-Oxetech%20AL-blue?style=for-the-badge" alt="Programa">
+  <img src="https://img.shields.io/badge/Realização-Governo%20de%20Alagoas-orange?style=for-the-badge" alt="Governo de Alagoas">
 </p>
 
-> **Descrição:** Repositório centralizador de desafios e projetos práticos da trilha de Desenvolvimento Web. Aqui aplico as melhores práticas de front-end aprendidas em sala de aula no SENAI Benedito Bentes.
+> **Descrição:** Repositório dedicado aos aprendizados do curso de **Desenvolvimento WEB** oferecido pelo programa **Oxetech** (uma iniciativa do Governo do Estado de Alagoas). As aulas práticas são realizadas no **SENAI Benedito Bentes**.
 
 ---
 
 ## 💻 Projeto Principal: TecNews 📰
-Um portal de notícias moderno que explora a interatividade do CSS e a semântica do HTML5.
+Um portal de notícias desenvolvido para aplicar conceitos de semântica HTML e estilização avançada.
 
-### 🛠️ Tecnologias Dominadas
+### 🛠️ Tecnologias e Conceitos em Foco
 | Tecnologia | Aplicação no Projeto |
 | :--- | :--- |
 | **HTML5** | Estruturação de `header`, `nav`, `section` e `footer`. |
-| **CSS3** | Estilização avançada com foco em UX/UI. |
-| **Gradientes** | Uso de `linear-gradient(180deg, ...)` para fundos imersivos. |
-| **Parallax** | Efeito de profundidade com `background-attachment: fixed`. |
-| **Refatoração** | Limpeza de redundâncias e otimização de seletores. |
+| **CSS3** | Design visual, box model e layouts modernos. |
+| **Gradientes** | Uso de `linear-gradient` para profundidade visual. |
+| **Parallax** | Efeito de movimento fixo em imagens de fundo. |
+| **Clean Code** | Refatoração constante para eliminar redundâncias no CSS. |
 
 ---
 
 ## 🧠 Evolução Técnica (Log de Aprendizado)
 
-### 🎨 Estilização e Design
-- [x] **Gradientes:** Aprendi a criar transições de cores suaves sem usar imagens.
-- [x] **Imagens de Fundo:** Centralização perfeita com `background-position: center` e `background-size: cover`.
-- [x] **Efeito Parallax:** Implementação de scroll suave em seções específicas (Seção 2 e 4).
+### 🎨 Design e Interface
+- [x] **Gradientes:** Aplicação de transições de cores no cabeçalho.
+- [x] **Imagens de Fundo:** Uso de `background-position` e `background-size` para centralização.
+- [x] **Parallax:** Implementação do efeito na seção de smartphones e mercado tech.
 
-### 📐 Layout e Navegação
-- [x] **Menu Interativo:** Criação de barra de navegação com links estilizados como botões.
-- [x] **Box Model:** Controle total de `padding`, `margin` e `box-sizing` para evitar quebras de layout.
-- [x] **Código Limpo:** Substituição de estilos *inline* por classes organizadas no arquivo `style.css`.
+### 📐 Estrutura e Navegação
+- [x] **Menus de Navegação:** Criação de links horizontais estilizados como botões.
+- [x] **Reset CSS:** Aplicação de `box-sizing: border-box` e reset de margens/paddings.
+- [x] **Organização:** Migração de estilos inline para arquivos `.css` externos.
 
 ---
 
-## 🚀 Como Executar o Projeto
-Para visualizar o progresso atual, basta seguir os passos:
-
-1. Clone o repositório:
+## 🚀 Como Executar
+1. Clone este repositório:
    ```bash
    git clone [https://github.com/abraaocorreias/Dev-WEB.git](https://github.com/abraaocorreias/Dev-WEB.git)
