@@ -1,0 +1,63 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  color: #333; /* Adicionado para melhor contraste nos textos escuros */
+}
+
+/* Header com o gradiente que você aprendeu */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+  background: linear-gradient(180deg, #6db3f2, #2a5298, #1e3c72);
+}
+
+/* Configuração Geral das Seções */
+section {
+  height: 500px;
+  text-align: center;
+  padding: 150px 20px; /* Ajustado para centralizar melhor o texto verticalmente */
+  
+}
+
+/* Estilos específicos para seções com Imagem de Fundo (2 e 4) */
+.sec-smartphones, 
+.sec-mercado {
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec-smartphones {
+  background-image: url("../../images/tech-bg-1.jpg");
+  background-attachment: fixed; /* Efeito Parallax */
+}
+
+.sec-mercado {
+  background-image: url("../../images/tech-bg-2.jpg");
+}
+
+/* Seções com Cor de Fundo (1 e 3) */
+.destaque { background-color: #e6f0fa; padding: auto 20%;}
+.sec-seguranca { background-color: #d0e4f7; padding: auto 20%; }
+
+/* Tipografia */
+h2 { margin-bottom: 20px; }
+p { line-height: 1.6; max-width: 600px; margin: auto; }
+
+/* Centraliza o bloco de texto */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: #1a5798;
+}
