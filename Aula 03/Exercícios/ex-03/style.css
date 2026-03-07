@@ -8,46 +8,37 @@
 Largura Total = width + padding esquerdo + padding direito + border esquerdo + border direito + margin esquerdo + margin direito
  */
 
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcf6fb;
+}
 header {
-    border: 2px solid rgb(52, 0, 75);
-    margin: 2px;
+    border: 2px solid #34004b;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #e8f3fc
+}
+
+main {
+    margin: 10px auto;
+    width: 80%;
+}
+
+section {
+    border: 2px solid #34004b;
+    margin: 5px auto;
     padding: 10px;
     border-radius: 10px;
 }
 
-main {
-    border: ;
-    margin: 2px;
-    padding: ;
-    border-radius: ;
-}
-
-section {
-    border: ;
-    margin: ;
-    padding: ;
-    border-radius: ;
-}
-
 footer {
-    border: ;
-    margin: ;
-    padding: ;
-    border-radius: ;
+    text-align: center;
+    border-top: 2px solid #34004b;
+    margin: 0 auto;
+    padding: 2px;
+    width: 80%;
+    background-color: #fcf9e8
 }
-.container {
-    border: ;
-    margin: ;
-    padding: ;
-    border-radius: ;
     
-}
-
-.noticia {
-    border: ;
-    margin: ;
-    padding: ;
-    border-radius: ;
-    
-}
