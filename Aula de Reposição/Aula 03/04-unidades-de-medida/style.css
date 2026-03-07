@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+div {
+  border: 2px solid black;
+}
+
+#container-web {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+
+#container-mobile {
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+
+
+}
+
+.secao-mobile {
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #e3e3e3;
+}

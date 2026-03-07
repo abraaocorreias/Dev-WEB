@@ -1,0 +1,63 @@
+#p-footer-01 {
+    color: #777678;
+    text-align: center;
+}
+
+#header-01 {
+  color: #39026c;
+  text-align: center;
+}
+
+#p-head {
+    color: #39026c;
+    text-align: center;
+    line-height: 1;
+}
+
+#tit-rust-01 {
+  color: #5e0942;
+  text-align: center;
+}
+
+#p-section-01 {
+  color: #350525;
+  text-align: justify;
+}
+
+#tit-ia-01 {
+  color: #0b1a57;
+  text-align: center;
+}
+
+#p-section-02 {
+  color: #060f31;
+  text-align: justify;
+}
+
+.section-01 {
+  color: #5e0942;
+  text-align: center;
+}
+
+.section-02 {
+  color: #0b1a57;
+  text-align: center;
+}
+
+body {
+  background-color: #fff7e4;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+p {
+    color: #1c1c1c;
+    line-height: 1.6;
+    text-align: justify;
+}

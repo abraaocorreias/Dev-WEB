@@ -1,0 +1,53 @@
+*{
+
+    box-sizing: border-box;
+}
+
+/*  sem o comando acima o tamanho dos objetos será dado pelo cálcul abaixo
+
+Largura Total = width + padding esquerdo + padding direito + border esquerdo + border direito + margin esquerdo + margin direito
+ */
+
+
+header {
+    border: 2px solid rgb(52, 0, 75);
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main {
+    border: ;
+    margin: 2px;
+    padding: ;
+    border-radius: ;
+}
+
+section {
+    border: ;
+    margin: ;
+    padding: ;
+    border-radius: ;
+}
+
+footer {
+    border: ;
+    margin: ;
+    padding: ;
+    border-radius: ;
+}
+.container {
+    border: ;
+    margin: ;
+    padding: ;
+    border-radius: ;
+    
+}
+
+.noticia {
+    border: ;
+    margin: ;
+    padding: ;
+    border-radius: ;
+    
+}
