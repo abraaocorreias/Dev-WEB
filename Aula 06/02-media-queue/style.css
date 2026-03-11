@@ -1,0 +1,44 @@
+/* Largura da tela for maior que 768px
+body {
+    background-color: lightcoral;
+}
+
+ Largura entre [481,768]px 
+body {
+    background-color: lightgreen;
+}
+
+ Largura entre [0, 480]px 
+body {
+    background-color: lightblue;
+}
+
+ @media ( ) {
+     regras 
+    body {
+        
+    }
+    h1 {
+        
+    } 
+ @media é uma diretiva de mídia que permite aplicar regras CSS com base nas características do dispositivo 
+
+ max-width: para largura de tela até aquele valor 
+min-width: para largura de tela a partir de (piso) */
+
+body {
+    background-color: lightblue;
+}
+
+
+@media (min-width: 481px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: lightcoral;
+    }
+}
