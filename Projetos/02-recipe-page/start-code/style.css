@@ -1,0 +1,11 @@
+
+body {
+    background-color: lightgreen;
+
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-color: lightcoral;
+    }
+}
