@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+table{
+    position: relative;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    border: 2px, solid,  black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    background-color: #fffff2;
+        font-size:1.2em;
+}
+th {
+    padding: 20px;
+    font-size:1.3em;
+    background-color: cornsilk;
+}
+td, th {
+    border: 1px, solid,  black;
+
+}
