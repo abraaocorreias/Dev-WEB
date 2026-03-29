@@ -1,11 +1,202 @@
-
-body {
-    background-color: lightgreen;
-
+@font-face {
+    font-family: "Outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 400;
+    font-style: normal;
 }
 
-@media (min-width: 1440px) {
-    body {
-        background-color: lightcoral;
+@font-face {
+    font-family: "Outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--stone-100);
+    font-family: "Outfit", sans-serif;
+    
+}
+
+h1,h2{
+    font-family: "Young Serif", serif;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--stone-600);
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+img{
+    display: block;
+    width: 100%;
+    
+}
+
+main {
+    background-color: var(--white) ;
+    max-width: 768px;
+    margin: 0 auto;
+    
+}
+
+.content-box{
+    padding: 32px;
+}
+.content-box h2{
+    font-size: 1.5rem;
+    color: var(--brown-800);
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.content-box ul,
+.content-box ol{
+    padding-left: 20px;
+    color: var(--stone-600);
+}
+
+.content-box li{
+    padding-left: 14px;
+}
+
+.content-box li:not(:last-child){
+    margin-bottom: 18px;
+}
+
+h1 {
+    margin-bottom: 32px;
+    color: var(--stone-900);
+    font-size: 1.875rem;
+}
+
+.sec-time {
+    background-color: var(--rose-50);
+    padding: 32px;
+    border-radius: 15px;
+    margin-bottom: 32px;
+}
+.sec-time h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--rose-800);
+    margin-bottom: 24px;
+}
+
+.sec-time li::marker{
+    color: var(--rose-800);
+}
+
+.sec-ing, .sec-inst{
+    border-bottom: 1px solid var(--stone-150);
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+.sec-ing li::marker,
+.sec-inst li::marker{
+    color: var(--brown-800);
+    font-weight: 700;
+}
+
+.cont-tab {
+    margin-bottom: 32px;
+    overflow-x: auto;
+}
+.sec-info table{
+    border-collapse: collapse;
+    min-width: 700px;
+    text-align: center;
+    
+}
+.sec-info table caption{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--stone-900);
+    margin-bottom: 12px;
+    font-family: "Young serif", serif;
+}
+
+.sec-info th {
+    background-color: var(--stone-100);
+    color: var(--stone-900);
+    font-size: 0.8rem;
+}
+.sec-info th, .sec-info td{
+    border: 1px solid var(--stone-150);
+    padding: 10px 14px;
+}
+.sec-info tbody tr:nth-child(even){
+    background-color: var(--rose-50);
+}
+
+.sec-info table strong{
+    color: var(--brown-800);
+}
+
+@media (min-width: 768px) {
+    html{
+        font-size: 18px;
+    }
+
+    body{
+        padding: 60px 0;
+    }
+
+    main{
+        border-radius: 15px;
+    }
+    
+    .img-header {
+        padding: 32px 32px 0 32px;
+    }
+    .img-header img{
+        border-radius: 15px;
+    }
+}
+
+@media (min-width: 980px) {
+    html{
+        font-size: 20px;
     }
 }
