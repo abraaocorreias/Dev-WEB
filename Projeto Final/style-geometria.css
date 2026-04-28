@@ -1,0 +1,135 @@
+/* =========================================
+   1. RESET GLOBAL (O que impede tudo de quebrar)
+========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a2e; /* Fundo escuro Vaporwave */
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* =========================================
+   2. HEADER E NAVEGAÇÃO
+========================================= */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #16213e;
+    border-bottom: 2px solid #0f3460;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ffff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    color: #e94560;
+}
+
+/* =========================================
+   3. PÁGINA: LABORATÓRIO (geometria.html)
+========================================= */
+
+/* O Bug no Sistema (Tela Azul) */
+.abismo-erro {
+    background-color: #000080;
+    color: white;
+    min-height: 50vh;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.erro-content { text-align: center; }
+.erro-content h2 { color: #ff0055; font-size: 2.5rem; text-shadow: 2px 2px 0px #ffffff; }
+.glitch-box p { font-size: 3rem; font-weight: bold; color: #fff; text-shadow: -3px 0 #00ffff, 3px 0 #ff0055; }
+
+/* Container e Textos */
+.container-vapor { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+.titulo-sessao { text-align: center; color: #e94560; font-size: 2.5rem; margin-bottom: 10px; }
+.subtitulo-vapor { color: #00ffff; margin-top: 50px; border-left: 4px solid #ff0055; padding-left: 15px; }
+.divisor-vapor { border: 0; border-top: 2px dashed #00ffff; margin: 50px 0; opacity: 0.3; }
+
+/* Caixas de Fórmulas Vaporwave */
+.formula-box {
+    background-color: #16213e; border: 2px solid #00ffff; border-radius: 0;
+    padding: 15px; text-align: center; font-size: 1.5rem; font-weight: bold;
+    color: #00ffff; margin: 20px 0; box-shadow: 5px 5px 0px #e94560;
+}
+.formula-box.diferenca { border-color: #ff0055; color: #ff0055; box-shadow: 5px 5px 0px #00ffff; }
+.formula-box.produto { border-color: #ff71ce; color: #ff71ce; box-shadow: 5px 5px 0px #b967ff; }
+
+/* Passos (Transformados em Cards de Sistema) */
+.passos-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin: 40px 0; }
+.passo {
+    flex: 1; min-width: 280px; background-color: #16213e; border: 2px solid #00ffff;
+    padding: 25px; display: flex; flex-direction: column; align-items: center; text-align: center;
+    box-shadow: 8px 8px 0px #e94560; transition: transform 0.3s;
+}
+.passo:hover { transform: translateY(-5px); }
+.passo h3 { color: #ff71ce; margin-bottom: 10px; text-transform: uppercase; }
+.passo p { color: #e0e0e0; font-size: 0.9rem; margin-bottom: 20px; min-height: 40px; }
+
+/* Diagramas e Medidas Externas */
+.diagrama { position: relative; width: 150px; height: 150px; margin: 20px auto; color: #fff; }
+.medida { position: absolute; font-weight: bold; font-size: 1rem; color: #fff; }
+.texto-reduzido { font-size: 0.8rem; }
+.diferenca-texto { color: #ff0055; }
+
+.medida-topo-total { top: -30px; left: 0; width: 100%; text-align: center; color: #00ffff; }
+.medida-topo-a { top: -30px; left: 0; width: 66.66%; text-align: center; color: #ff71ce; }
+.medida-topo-b { top: -30px; right: 0; width: 33.33%; text-align: center; color: #01cdfe; }
+
+.medida-esq-total, .medida-esq-a, .medida-esq-b {
+    display: flex; align-items: center; justify-content: center; transform: rotate(-90deg); white-space: nowrap;
+}
+.medida-esq-total { left: -45px; top: 0; height: 100%; width: 30px; color: #00ffff;}
+.medida-esq-a { left: -35px; top: 0; height: 66.66%; width: 30px; color: #ff71ce;}
+.medida-esq-b { left: -35px; bottom: 0; height: 33.33%; width: 30px; color: #01cdfe;}
+
+/* Formas Base e Grid Interno */
+.forma-base { width: 100%; height: 100%; border: 2px solid #fff; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+.forma-base.listrada { background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 255, 255, 0.2) 10px, rgba(0, 255, 255, 0.2) 20px); }
+.forma-base.area-total-a { background-color: rgba(0, 255, 255, 0.1); border-color: #00ffff; }
+
+.forma-grid { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 2fr 1fr; width: 100%; height: 100%; border: 2px solid #fff; gap: 0; }
+.bloco { display: flex; align-items: center; justify-content: center; font-weight: bold; color: #1a1a2e; border: 1px dashed #1a1a2e; text-align: center; flex-direction: column;}
+
+/* A Paleta Vaporwave/Neon para as Peças */
+.bloco-a2 { background-color: #ff71ce; }
+.bloco-ab { background-color: #b967ff; }
+.bloco-b2 { background-color: #01cdfe; }
+.bloco-alvo { background-color: #01cdfe; color: #1a1a2e; } 
+.bloco-removido { background-color: #1a1a2e; border: 1px dashed #ff0055; color: #ff0055; font-size: 0.8rem; } 
+.bloco-interseccao { background-color: #ffb822; }
+.bloco-interseccao-escura { background-color: #ff0055; color: #fff; font-size: 0.7em; }
+
+/* Botão Arcade "Insert Coin" */
+.nav-arcade { text-align: center; padding: 60px 20px; }
+.btn-insert-coin { 
+    display: inline-block; background-color: #ff0055; color: #fff; padding: 20px 40px; 
+    font-family: monospace; font-size: 1.5rem; font-weight: bold; text-decoration: none; 
+    border: 4px solid #fff; box-shadow: 0px 0px 15px #ff0055; transition: all 0.3s;
+}
+.btn-insert-coin:hover { 
+    background-color: #00ffff; color: #1a1a2e; border-color: #1a1a2e; box-shadow: 0px 0px 20px #00ffff;
+}
