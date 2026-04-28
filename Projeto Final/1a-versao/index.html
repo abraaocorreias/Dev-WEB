@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roteiro de Estudos: Produtos Notáveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Roteiro de Estudos: Produtos Notáveis e Áreas</h1>
+        <p><strong>Olá, turma!</strong> O objetivo deste material é que vocês dominem os Produtos Notáveis. É fundamental entender tanto as regras algébricas quanto a forma como elas se transformam em desenhos geométricos. Dominar esse conteúdo será essencial para o próximo simulado.</p>
+
+        <h2>1. O Quadrado da Soma de Dois Termos (a + b)²</h2>
+        <p>A primeira regra que vocês precisam guardar é o quadrado da soma:</p>
+        <div class="formula-box soma">
+            (a + b)² = a² + 2ab + b²
+        </div>
+        <p><strong>Construção Geométrica Passo a Passo:</strong> Veja como chegamos a essa fórmula dividindo a área de um quadrado.</p>
+        
+        <div class="passos-container">
+            <div class="passo">
+                <h3>Passo 1: O Quadrado Maior</h3>
+                <p>Temos um quadrado cujo lado inteiro mede (a + b).</p>
+                <div class="diagrama">
+                    <div class="medida medida-topo-total">(a + b)</div>
+                    <div class="medida medida-esq-total">(a + b)</div>
+                    <div class="forma-base">Área Total</div>
+                </div>
+            </div>
+
+            <div class="passo">
+                <h3>Passo 2: Dividindo os Lados</h3>
+                <p>Separamos a medida do lado em duas partes: "a" e "b".</p>
+                <div class="diagrama">
+                    <div class="medida medida-topo-a">a</div>
+                    <div class="medida medida-topo-b">b</div>
+                    <div class="medida medida-esq-a">a</div>
+                    <div class="medida medida-esq-b">b</div>
+                    <div class="forma-base listrada"></div>
+                </div>
+            </div>
+
+            <div class="passo">
+                <h3>Passo 3: As Quatro Áreas</h3>
+                <p>A figura se divide em 2 quadrados e 2 retângulos.</p>
+                <div class="diagrama">
+                    <div class="medida medida-topo-a">a</div>
+                    <div class="medida medida-topo-b">b</div>
+                    <div class="medida medida-esq-a">a</div>
+                    <div class="medida medida-esq-b">b</div>
+                    
+                    <div class="forma-grid">
+                        <div class="bloco bloco-a2">a² <span class="sub-legenda">(a&times;a)</span></div>
+                        <div class="bloco bloco-ab">ab <span class="sub-legenda">(a&times;b)</span></div>
+                        <div class="bloco bloco-ab">ab <span class="sub-legenda">(b&times;a)</span></div>
+                        <div class="bloco bloco-b2">b²</div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divisor">
+
+        <h2>2. O Quadrado da Diferença: (a - b)²</h2>
+        <p>A lógica aqui é de <strong>subtração</strong> de áreas. Nosso objetivo é encontrar a área de um quadrado menor, recortando pedaços de um quadrado maior.</p>
+        
+        <div class="formula-box diferenca">
+            (a - b)² = a² - 2ab + b²
+        </div>
+        
+        <div class="passos-container">
+            <div class="passo diferenca-passo">
+                <h3>Passo 1: O Quadrado Maior (a²)</h3>
+                <p>Começamos com um quadrado de lado "a". A área total dele é <strong>a²</strong>.</p>
+                <div class="diagrama">
+                    <div class="medida medida-topo-total">a</div>
+                    <div class="medida medida-esq-total">a</div>
+                    <div class="forma-base area-total-a">Área = a²</div>
+                </div>
+            </div>
+
+            <div class="passo diferenca-passo">
+                <h3>Passo 2: 1º Recorte (-ab)</h3>
+                <p>Retiramos um retângulo vertical de base "b" e altura "a". A área retirada é <strong>ab</strong>.</p>
+                <div class="diagrama">
+                    <div class="medida medida-topo-a texto-reduzido">(a - b)</div>
+                    <div class="medida medida-topo-b diferenca-texto">b</div>
+                    <div class="medida medida-esq-total">a</div>
+                    
+                    <div class="forma-grid">
+                        <div class="bloco bloco-alvo" style="opacity: 0.5;"></div>
+                        <div class="bloco bloco-removido">Retirado</div>
+                        <div class="bloco bloco-alvo" style="opacity: 0.5;"></div>
+                        <div class="bloco bloco-removido">Retirado</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="passo diferenca-passo">
+                <h3>Passo 3: 2º Recorte (-ab)</h3>
+                <p>Retiramos um retângulo horizontal de base "a" e altura "b" (área <strong>ab</strong>). Note que o cantinho (b²) cruzou com o 1º recorte e foi subtraído duas vezes!</p>
+                <div class="diagrama">
+                    <div class="medida medida-topo-total" style="top: -45px;">a</div>
+                    <div class="medida medida-topo-a texto-reduzido">(a - b)</div>
+                    <div class="medida medida-topo-b diferenca-texto">b</div>
+                    <div class="medida medida-esq-a texto-reduzido">(a - b)</div>
+                    <div class="medida medida-esq-b diferenca-texto">b</div>
+                    
+                    <div class="forma-grid">
+                        <div class="bloco bloco-alvo" style="opacity: 0.5;"></div>
+                        <div class="bloco bloco-removido" style="opacity: 0.3;">Já saiu</div>
+                        <div class="bloco bloco-removido">Retirado</div>
+                        <div class="bloco bloco-interseccao-escura">2x Retirado</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="passo diferenca-passo">
+                <h3>Passo 4: A Compensação (+b²)</h3>
+                <p>Como subtraímos a área vermelha <strong>b²</strong> duas vezes (a² - ab - ab), precisamos somá-la de volta (+ b²) para a conta ficar exata. O que sobra é (a - b)².</p>
+                <div class="diagrama">
+                    <div class="medida medida-topo-a texto-reduzido">(a - b)</div>
+                    <div class="medida medida-topo-b diferenca-texto">b</div>
+                    <div class="medida medida-esq-a texto-reduzido">(a - b)</div>
+                    <div class="medida medida-esq-b diferenca-texto">b</div>
+                    
+                    <div class="forma-grid">
+                        <div class="bloco bloco-alvo">(a-b)²</div>
+                        <div class="bloco bloco-removido" style="opacity: 0.3;"></div>
+                        <div class="bloco bloco-removido" style="opacity: 0.3;"></div>
+                        <div class="bloco bloco-interseccao">+ b²</div> 
+                    </div>
+                </div>
+            </div>
+            <div class="passo diferenca-passo">
+                <h3>Passo 5: O Resultado Final</h3>
+                <p>Após retirar os retângulos e compensar o canto subtraído duas vezes, o resto do quadrado desaparece. A expressão <strong>a² - 2ab + b²</strong> resulta exatamente na nossa área azul!</p>
+                <div class="diagrama">
+                    <div class="medida medida-topo-a texto-reduzido">(a - b)</div>
+                    <div class="medida medida-esq-a texto-reduzido">(a - b)</div>
+                    
+                    <div class="forma-grid" style="background-color: transparent; border-color: transparent;">
+                        <div class="bloco bloco-alvo" style="border: 2px solid #2c3e50;">(a-b)²</div>
+                        <div class="bloco" style="background: transparent;"></div>
+                        <div class="bloco" style="background: transparent;"></div>
+                        <div class="bloco" style="background: transparent;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="divisor">
+
+        <h2>3. O Produto da Soma pela Diferença (a + b)(a - b)</h2>
+        <p>Este é o produto notável mais prático de resolver algebricamente, pois os termos centrais se cancelam. Geometricamente, ele funciona como um incrível quebra-cabeça!</p>
+        
+        <div class="formula-box produto">
+            (a + b)(a - b) = a² - b²
+        </div>
+
+        <div class="passos-container">
+            <div class="passo">
+                <h3>Passo 1: A Área (a² - b²)</h3>
+                <p>Temos um quadrado <strong>a²</strong> e retiramos um quadrado menor <strong>b²</strong>. Note as medidas <strong>b</strong> do recorte.</p>
+                <div class="diagrama" style="width: 150px; height: 150px; margin: 40px auto 20px auto;">
+                    <div class="medida" style="left: -35px; top: 0; height: 100%; display: flex; align-items: center; transform: rotate(-90deg); color: #2c3e50;">a</div>
+                    <div class="medida" style="top: -25px; left: 0; width: 70%; text-align: center; color: #3498db;">a - b</div>
+                    <div class="medida" style="top: -25px; right: 0; width: 30%; text-align: center; color: #e74c3c;">b</div>
+                    <div class="medida" style="right: -20px; bottom: 0; height: 30%; display: flex; align-items: center; color: #e74c3c;">b</div>
+
+                    <div style="width: 100%; height: 70%; background-color: #3498db; border: 2px solid #2c3e50; box-sizing: border-box;"></div>
+                    <div style="display: flex; height: 30%; width: 100%;">
+                        <div style="width: 70%; height: 100%; background-color: #3498db; border: 2px solid #2c3e50; border-top: none; box-sizing: border-box;"></div>
+                        <div style="width: 30%; height: 100%; background-color: #ecf0f1; border: 1px solid #dee2e6; border-top: none; border-left: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; color: #bdc3c7; font-size: 0.8em;">- b²</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="passo">
+                <h3>Passo 2: Identificando as Peças</h3>
+                <p>Dividimos o "L" azul em dois retângulos. O <strong>Retângulo 2</strong> tem altura <strong>b</strong> e base <strong>(a - b)</strong>.</p>
+                <div class="diagrama" style="width: 150px; height: 160px; margin: 40px auto 20px auto; display: flex; flex-direction: column; justify-content: space-between;">
+                    
+                    <div class="medida" style="top: -25px; left: 0; width: 100%; text-align: center; color: #2c3e50;">a</div>
+
+                    <div style="width: 100%; height: 65%; position: relative;">
+                        <div class="medida" style="left: -35px; top: 0; height: 100%; display: flex; align-items: center; transform: rotate(-90deg); color: #3498db; white-space: nowrap;">a - b</div>
+                        <div style="width: 100%; height: 100%; background-color: #3498db; border: 2px solid #2c3e50; box-sizing: border-box; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">Retângulo 1</div>
+                    </div>
+
+                    <div style="width: 70%; height: 28%; position: relative;">
+                        <div class="medida" style="left: -35px; top: 0; height: 100%; display: flex; align-items: center; transform: rotate(-90deg); color: #e74c3c;">b</div>
+                        <div class="medida" style="bottom: -25px; left: 0; width: 100%; text-align: center; color: #e74c3c;">a - b</div>
+                        <div style="width: 100%; height: 100%; background-color: #2980b9; border: 2px solid #2c3e50; box-sizing: border-box; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.8em;">Ret. 2</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="passo">
+                <h3>Passo 3: O Encaixe Perfeito</h3>
+                <p>Ao girar o Retângulo 2, a base dele se encaixa na altura do Retângulo 1. A largura total agora é <strong>a + b</strong> e a altura é <strong>a - b</strong>.</p>
+                <div class="diagrama" style="width: 195px; height: 105px; margin: 60px auto 20px auto; display: flex;">
+                    
+                    <div class="medida" style="left: -40px; top: 0; height: 100%; display: flex; align-items: center; transform: rotate(-90deg); color: #2c3e50; white-space: nowrap;">a - b</div>
+                    <div class="medida" style="top: -25px; left: 0; width: 150px; text-align: center; color: #3498db;">a</div>
+                    <div class="medida" style="top: -25px; right: 0; width: 45px; text-align: center; color: #e74c3c;">b</div>
+                    <div class="medida" style="top: -50px; left: 0; width: 100%; text-align: center; color: #2c3e50;">(a + b)</div>
+
+                    <div style="width: 150px; height: 100%; background-color: #3498db; border: 2px solid #2c3e50; border-right: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">Retângulo 1</div>
+                    <div style="width: 45px; height: 100%; background-color: #2980b9; border: 2px solid #2c3e50; box-sizing: border-box; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.8em; text-align: center; line-height: 1.2;">Ret. 2<br>girado</div>
+                </div>
+                <p style="margin-top: 30px; font-weight: bold; color: #2c3e50;">Área = (a + b) &times; (a - b)</p>
+            </div>
+        </div>
+
+        <hr class="divisor">
+
+        <div class="exemplos-section" style="background-color: #f4f9f9; padding: 25px; border-radius: 8px; border-left: 5px solid #2ecc71; margin-top: 40px; margin-bottom: 40px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+            <h2 style="margin-top: 0; color: #27ae60; border-left: none; padding-left: 0;">Exemplos Resolvidos Passo a Passo</h2>
+            <p style="margin-bottom: 25px;">Antes de ir para os exercícios, acompanhe como aplicamos as regras que acabamos de aprender na resolução de problemas reais.</p>
+
+            <div class="exemplo-box" style="background-color: #fff; padding: 20px; border: 1px solid #e0e6ed; border-radius: 5px; margin-bottom: 20px;">
+                <h3 style="color: #2c3e50; margin-top: 0;">Exemplo 1: Desenvolvendo o Quadrado da Soma</h3>
+                <p><strong>Situação:</strong> Qual é a forma algébrica desenvolvida da expressão <strong>(x + 7)²</strong>?</p>
+                <p><strong>Resolução:</strong> Aplicamos a regra: <em>O quadrado do primeiro, mais duas vezes o primeiro pelo segundo, mais o quadrado do segundo.</em></p>
+                <ul style="color: #555; line-height: 1.8;">
+                    <li>Primeiro termo: <strong>x</strong></li>
+                    <li>Segundo termo: <strong>7</strong></li>
+                    <li>Montando a conta: (x)² + 2 &middot; (x) &middot; (7) + (7)²</li>
+                    <li>Calculando: <strong>x² + 14x + 49</strong></li>
+                </ul>
+                <p style="color: #27ae60; font-weight: bold; margin-bottom: 0;">Resposta Final: x² + 14x + 49</p>
+            </div>
+
+            <div class="exemplo-box" style="background-color: #fff; padding: 20px; border: 1px solid #e0e6ed; border-radius: 5px; margin-bottom: 20px;">
+                <h3 style="color: #2c3e50; margin-top: 0;">Exemplo 2: Quadrado da Diferença com Raízes</h3>
+                <p><strong>Situação:</strong> Calcule o valor numérico exato de <strong>(&radic;8 - &radic;3)²</strong>.</p>
+                <p><strong>Resolução:</strong> Aplicamos a regra do quadrado da diferença: <em>a² - 2ab + b²</em>.</p>
+                <ul style="color: #555; line-height: 1.8;">
+                    <li>(&radic;8)² - 2 &middot; (&radic;8) &middot; (&radic;3) + (&radic;3)²</li>
+                    <li>Lembre-se: O quadrado corta a raiz! Logo, (&radic;8)² = 8 e (&radic;3)² = 3.</li>
+                    <li>Na multiplicação de raízes, multiplicamos por dentro: &radic;8 &middot; &radic;3 = &radic;24.</li>
+                    <li>Substituindo tudo: 8 - 2&radic;24 + 3</li>
+                    <li>Somando os números inteiros (8 + 3): <strong>11 - 2&radic;24</strong></li>
+                </ul>
+                <p style="color: #27ae60; font-weight: bold; margin-bottom: 0;">Resposta Final: 11 - 2&radic;24</p>
+            </div>
+
+            <div class="exemplo-box" style="background-color: #fff; padding: 20px; border: 1px solid #e0e6ed; border-radius: 5px;">
+                <h3 style="color: #2c3e50; margin-top: 0;">Exemplo 3: Produto da Soma pela Diferença em Áreas</h3>
+                <p><strong>Situação:</strong> Um terreno retangular possui comprimento de <strong>(x + 6)</strong> metros e largura de <strong>(x - 6)</strong> metros. Sabendo que a área total desse terreno é de 64 m², qual é o valor de x?</p>
+                <p><strong>Resolução:</strong> A área de um retângulo é base vezes altura. Logo, multiplicamos (x + 6)(x - 6).</p>
+                <ul style="color: #555; line-height: 1.8;">
+                    <li>Aplicando o produto notável (a + b)(a - b) = a² - b²:</li>
+                    <li>(x)² - (6)² = <strong>x² - 36</strong> (Essa é a fórmula da área).</li>
+                    <li>O problema diz que a área vale 64. Então, igualamos: <strong>x² - 36 = 64</strong></li>
+                    <li>Passando o 36 para o outro lado somando: x² = 64 + 36</li>
+                    <li>x² = 100</li>
+                    <li>x = &radic;100 &rArr; <strong>x = 10</strong></li>
+                </ul>
+                <p style="color: #27ae60; font-weight: bold; margin-bottom: 0;">Resposta Final: O valor de x é 10 metros.</p>
+            </div>
+        </div>
+        <div class="exercicios-section">
+            <h2 style="margin-top: 0; color: #d35400; border-left: none; padding-left: 0;">Mão na Massa: Exercícios de Fixação</h2>
+            
+            <div class="questao">
+                <span class="questao-numero">Questão 1:</span> Desenvolva corretamente a expressão algébrica do seguinte produto notável: (y + 4)².
+            </div>
+            
+            <div class="questao">
+                <span class="questao-numero">Questão 2:</span> Imagine o projeto de um painel de formato quadrado cujo lado mede (m + n) metros. Um artista pintou uma área quadrada de lado <em>m</em> de azul e uma área quadrada de lado <em>n</em> de amarelo. Qual expressão algébrica representa a área restante do painel que ficou em branco?
+            </div>
+            
+            <div class="questao">
+                <span class="questao-numero">Questão 3:</span> Calcule o valor numérico exato da expressão: (&radic;5 - &radic;2)². <br>
+                <em>(Dica: O quadrado de uma raiz quadrada elimina o radical. Na multiplicação de raízes, multiplicamos os números de dentro).</em>
+            </div>
+
+            <div class="questao">
+                <span class="questao-numero">Questão 4:</span> Imagine a planta de um galpão retangular. A medida do comprimento é (x + y) metros e a largura é (x - y) metros. Sabemos que a área total desse galpão é de 32 m² e que y = 2 metros. Qual é o valor de x (sabendo que x > 0)?
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

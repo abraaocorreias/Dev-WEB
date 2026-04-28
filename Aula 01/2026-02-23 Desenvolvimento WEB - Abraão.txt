@@ -56,5 +56,5 @@ JavaScript
 
 
 
-Extensão WEB DEVELOPER - ativa e desativa as linguagens
+Extensão WEB DEVELOPER - ativa e desativar as linguagens
 Baixar o VS code e a extensão Live Server

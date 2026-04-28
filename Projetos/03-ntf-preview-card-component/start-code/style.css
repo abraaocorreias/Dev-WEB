@@ -1,0 +1,65 @@
+
+
+
+
+/* É a caixa que abraça todo o projeto. No CSS, é nela que vamos definir a cor de fundo azul escura, a largura máxima (para não esticar na tela do computador), os cantos arredondados e a sombra suave ao redor. */
+.card{
+
+}
+
+/* É a "caixa" invisível que segura a imagem do cubo e o efeito de hover juntos. Usaremos position: relative nela para que o efeito de sobreposição não vaze para fora do cartão. */
+.card-image-container{
+
+}
+
+/* É a foto do cubo em si. No CSS, vamos garantir que ela ocupe 100% da largura do seu contêiner e tenha cantos arredondados. */
+.main-image {
+
+}
+
+/* É a película ciano com o ícone de olho. Ela receberá position: absolute para flutuar em cima da .main-image. No estado inicial, deixaremos ela invisível (opacity: 0), e quando o mouse passar por cima (:hover), ela aparecerá. */
+.overlay{
+
+}
+
+
+/* : É a caixa que agrupa o título, o texto descritivo e a linha de preço/tempo. Ela servirá para darmos um espaçamento interno (padding) para que os textos não fiquem colados nas bordas do cartão. */
+.card-content{
+
+}
+/* : Controla o título "Equilibrium". Aqui definiremos o tamanho da fonte e a cor branca. Como ele tem um link (<a>) dentro, também faremos a cor mudar para ciano ao passar o mouse. */
+.title{
+
+}
+/* : Controla o parágrafo descritivo. Definiremos a cor azul claro e o tamanho da fonte (18px, conforme o guia de estilo).
+ */
+.description{
+
+}
+
+ /* : É a linha que segura o preço e o tempo. Transformaremos essa classe em um container Flexbox (display: flex; justify-content: space-between;) para jogar o preço para a esquerda e o tempo para a direita. */
+.card-info{
+
+}
+
+/* : São os bloquinhos individuais do preço e do tempo. Ambos também serão Flexbox (display: flex; align-items: center;) para que o ícone do Ethereum fique perfeitamente alinhado verticalmente com os números, e o ícone do relógio com os dias. Além disso, a classe .price receberá a cor ciano no texto. */
+.price{
+
+} 
+
+.time{
+
+}
+
+/* : É a linha final que separa o conteúdo do criador. Colocaremos uma linha divisória no topo (border-top) e usaremos Flexbox novamente para alinhar a foto com o texto. */
+.card-footer{
+
+}
+/* : É a foto do Jules Wyvern. Definiremos uma largura e altura pequenas (ex: 30px) e usaremos uma borda branca redonda.
+ */
+.avatar{
+
+}
+ /* : Controla especificamente o nome do criador (que é um link). Vai receber a cor branca e mudar para ciano ao passar o mouse. */
+.creator-name {
+    }
